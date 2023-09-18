@@ -3,6 +3,8 @@
      margin: 0;
     flex-wrap: wrap;
     color: white; 
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
     
 }
 
@@ -25,4 +27,11 @@ body {
     color: rgb(185, 36, 36);
 }
 
+a{
+font-family: 'Orbitron', sans-serif;
+}
 
+h2{
+    font-family: 'Caveat', cursive;
+    font-size: 48px;
+}
