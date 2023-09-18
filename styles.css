@@ -1,17 +1,18 @@
 * {
     box-sizing: border-box;
      margin: 0;
-    flex-wrap: wrap;
     color: white; 
     font-family: 'Indie Flower', cursive;
     font-family: 'Pacifico', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
     
 }
 
 body {
     background-image: url(Images/back2.png);
     background-size:cover;
-    background-repeat: no-repeat;
+    background-repeat: unset;
+    
     
 }
 
@@ -35,3 +36,34 @@ h2{
     font-family: 'Caveat', cursive;
     font-size: 48px;
 }
+#welcome{
+    position: fixed;
+    top:200px;
+    left:250px;
+    
+    
+    
+
+}
+div p{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+       
+}
+@media screen and (min-width: 350px) {
+
+#welcome{
+font-size: 20px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+
+    #welcome {
+        font-size: 40px;
+    }
+}
+
+
+
