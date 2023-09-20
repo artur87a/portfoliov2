@@ -40,28 +40,11 @@ div p{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+}
 
+#hiddentext{
+    letter-spacing: normal;
+    visibility: hidden;
+}
     /*/////Media queries */
        
-}
-@media screen and (min-width: 350px) {
-
-#welcome{
-font-size: 20px;
-
-}
-
-}
-
-@media screen and (min-width: 1200px) {
-
-    #welcome {
-        font-size: 40px;
-        
-    }
-}
-
-@media screen and (min-width: 320px) {}
-
-@media screen and (max-width: 1920px) {}
-

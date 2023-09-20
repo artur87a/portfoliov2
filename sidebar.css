@@ -18,10 +18,10 @@ body {
     
 }
 
-.sidebar a {
+#mySidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 35px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -59,35 +59,41 @@ body {
 
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (min-height: 450px) {
-    .sidebar {
-        padding-top: 15px;
-    }
 
-    .sidebar a {
-        font-size: 20px;
-    }
     
 
-@media screen and (min-width: 450px) {
+@media screen and (max-width: 500px) {
     .sidebar {
         padding-top: 60px;
+        justify-content: center;
+        text-align: center;
+        padding-top: 150px;
+        width: 100%;
     }
 
     .sidebar a {
         font-size: 36px;
     }
-    #mySidebar{
-        width: 270px;
-    }
+
+
+  #hiddentext {
+      visibility: initial;
+      line-height: 1;
+      /* bottom: 400px; */
+      font-size: 18px;
+      margin-left: 10px;
+      
+  }
+
 }
+#hiddentext a{
+    font-size: 16px;
+    font-family: 'Indie Flower',cursive;;
+      
 }
-@media screen and (max-width: 12000px){
-    .sidebar{
-width: 350px;
-justify-content: center;
-text-align: center;
-padding-top: 150px;
-}
+
+#hiddentext p {
+   margin-left: 20px;
+   position:  ;
 
 }
