@@ -9,5 +9,7 @@ function openNav() {
 function closeNav() {
   // document.getElementById("mySidebar").style.width = "0";
   // document.getElementById("slide").style.marginLeft= "0";
-document.getElementById("mySidebar").style.transform = "translateX(-250px)"}
+document.getElementById("mySidebar").style.transform = "translateX(-370px)"}
+
+
 
