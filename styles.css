@@ -48,13 +48,16 @@ div p{
 
 #welcome{
 font-size: 20px;
+
 }
+
 }
 
 @media screen and (min-width: 1200px) {
 
     #welcome {
         font-size: 40px;
+        
     }
 }
 
