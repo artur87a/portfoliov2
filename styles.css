@@ -47,13 +47,13 @@ div p{
     letter-spacing: normal;
     visibility: hidden;
 }
-#hiddentext1 {
+/* #hiddentext1 {
     letter-spacing: normal;
     visibility: visible;
     background: linear-gradient(266deg, rgba(1, 4, 21, 1) 46%, rgba(29, 72, 224, 1) 55%, rgba(216, 244, 253, 1) 100%);
     letter-spacing: 1em;
     text-align: center;
-}
+} */
 
     /*/////Media queries */
        
