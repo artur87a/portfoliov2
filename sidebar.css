@@ -97,3 +97,6 @@ body {
    
 
 }
+#hiddentext1 {
+    visibility: none;
+}

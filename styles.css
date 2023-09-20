@@ -11,7 +11,7 @@
 
 .Hero {
     width: 100%;
-    height: 100vh;
+    height: 97vh;
     background-image: url(https://www.teahub.io/photos/full/61-616825_wallpaper-planets-space-glow-universe-space-universe-wallpaper..jpg);
     background-size:cover;
     background-position: center;
@@ -47,5 +47,13 @@ div p{
     letter-spacing: normal;
     visibility: hidden;
 }
+#hiddentext1 {
+    letter-spacing: normal;
+    visibility: visible;
+    background: linear-gradient(266deg, rgba(1, 4, 21, 1) 46%, rgba(29, 72, 224, 1) 55%, rgba(216, 244, 253, 1) 100%);
+    letter-spacing: 1em;
+    text-align: center;
+}
+
     /*/////Media queries */
        
